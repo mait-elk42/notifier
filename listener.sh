@@ -5,6 +5,7 @@ do
 	if [ $? -ne 0 ]
 	then
 		echo 'Take A Look In Discord Server!' | ./terminal-notifier.app/Contents/MacOS/terminal-notifier -sound default
+		cat .savestatenow > .savestate
 	fi
 	sleep 0.5
 done
