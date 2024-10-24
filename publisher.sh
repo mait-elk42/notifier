@@ -1,0 +1,1 @@
+curl -H 'Content-Type: application/json' -d "{\"time\": $(date +%s)}" -X PUT https://discordproblem-nsx-default-rtdb.firebaseio.com/.json
