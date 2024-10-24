@@ -1,1 +1,2 @@
-curl -H 'Content-Type: application/json' -d "{\"time\": $(date +%s)}" -X PUT https://discordproblem-nsx-default-rtdb.firebaseio.com/.json
+curl -H 'Content-Type: application/json' -d "{\"time\": $(date +%s)}" -X PUT https://discordproblem-nsx-default-rtdb.firebaseio.com/.json -o /dev/null 2> /dev/null
+echo 'EVERYONE HAD YOUR NOTIFICATION :) EXPECTED YDKHLO LSERVER DB'
